@@ -1,0 +1,592 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header nav {
+    padding: 14px;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    margin-left: 10px;
+    margin-right: 80px;
+}
+
+.CD {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+header nav .menu ul li {
+    font-size: 20px;
+    list-style: none;
+    color: gray;
+    font-weight: 600;
+    display: inline;
+    margin-left: 28px;
+}
+
+header nav .menu ul li button {
+    font-size: 20px;
+    color: rgb(183, 180, 180);
+    background-color: white;
+    padding: 10px;
+    border: rgb(138, 137, 137) 1px solid;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.accelrate {
+    height: 50vh;
+    text-align: center;
+    background-color: rgb(244, 235, 237);
+    font-family: sans-serif;
+}
+
+.accelrate h1 {
+    font-size: 55px;
+    padding-top: 70px;
+    word-spacing: 10px;
+    color: rgb(61, 59, 59);
+}
+
+.accelrate p {
+    padding-top: 40px;
+    font-size: 25px;
+}
+
+.accelrate button {
+    margin-top: 60px;
+    font-size: 25px;
+    background-color: rgb(34, 201, 201);
+    color: white;
+    border: none;
+    padding: 16px;
+    border-radius: 5px;
+}
+
+.bag {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.project .fa-bag-shopping {
+    color: rgb(39, 163, 39);
+}
+
+.project {
+    width: 500px;
+    height: 350px;
+    border: 1px solid rgb(196, 195, 195);
+    border-radius: 3px;
+    margin-left: 35px;
+}
+
+.project h1 {
+    padding-bottom: 10px;
+    padding: 16px;
+}
+
+.project p {
+    font-size: 22px;
+    color: rgb(143, 208, 230);
+    padding-left: 15px;
+}
+
+.project i {
+    padding-left: 22px;
+    padding-top: 22px;
+    font-size: 90px;
+    color: rgb(41, 41, 215);
+}
+
+.all {
+    padding: 20px;
+    background-color: rgb(230, 220, 230);
+    font-family: sans-serif;
+    padding-bottom: 50px;
+}
+
+.you {
+    font-size: 25px;
+    text-align: center;
+    padding: 22px;
+}
+
+.tuck {
+    display: flex;
+}
+
+.tick {
+    font-size: 16px;
+    color: rgb(46, 46, 188);
+    font-weight: 600;
+    margin-left: 150px;
+    line-height: 30px;
+}
+
+.tick p {
+    margin-top: 30px;
+}
+
+.tick2 {
+    font-size: 16px;
+    color: rgb(46, 46, 161);
+    font-weight: 600;
+    margin: 30px;
+    margin-left: 150px;
+}
+
+.tuck i {
+    color: rgb(203, 100, 203);
+    font-size: 30px;
+    margin: 20px;
+}
+
+.one {
+    display: flex;
+    padding-top: 60px;
+}
+
+.pm {
+    padding-top: 170px;
+    font-family: sans-serif;
+}
+
+.pm h1 {
+    font-size: 50px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    color: black;
+}
+
+.pm p {
+    width: 800px;
+    padding-right: 10px;
+    padding-left: 10px;
+    line-height: 37px;
+    font-size: 25px;
+}
+
+.am img {
+    width: 710px;
+}
+
+.two {
+    height: 95vh;
+    background-color: whitesmoke;
+    margin: 60px;
+    font-family: sans-serif;
+    padding-bottom: 50px;
+}
+
+.align {
+    display: flex;
+    justify-content: center;
+}
+
+.dash {
+    margin-left: 40px;
+}
+
+.dash h1 {
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.dash p {
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.dash a {
+    font-size: 17px;
+    text-decoration: none;
+    color: rgb(69, 69, 255);
+    margin-left: 150px;
+    font-weight: 600;
+}
+
+.dash i {
+    margin-top: 50px;
+    margin-left: 150px;
+    font-size: 60px;
+    color: rgb(128, 128, 242);
+}
+
+.best {
+    font-size: 30px;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: rgb(243, 242, 242);
+    border: 1px rgb(186, 185, 185) solid;
+    padding: 16px;
+}
+
+
+.CRM {
+    display: flex;
+    padding: 30px;
+    font-size: 18px;
+    border: 2px solid rgb(188, 186, 186);
+    /* justify-content: center; */
+    background-color: whitesmoke;
+    font-family: sans-serif;
+}
+
+.CRM h3 {
+    margin-left: 180px;
+    justify-content: space-around;
+}
+
+.CRM .tc {
+    margin-left: 400px;
+}
+
+.CRM .bc {
+    margin-left: 170px;
+}
+
+
+.list {
+    width: 300px;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.list ul li {
+    list-style: none;
+    line-height: 40px;
+}
+
+.tit {
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.main2 {
+    display: flex;
+}
+
+.check {
+    width: 400px;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+.check ul li {
+    padding: 10px;
+    list-style: none;
+}
+
+.check ul li i {
+    text-align: center;
+    list-style: none;
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.fa-check {
+    background-color: rgb(201, 234, 201);
+}
+
+.fa-xmark {
+    background-color: rgb(248, 216, 221);
+}
+
+
+.three {
+    display: flex;
+}
+
+.img {
+    padding-left: 50px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.txt {
+    padding-top: 100px;
+    padding-left: 30px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.txt h5 {
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+.txt p {
+    font-size: 25px;
+    padding-bottom: 20px;
+    word-spacing: 10px;
+}
+
+.txt button {
+    width: 220px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 3px solid black;
+    background-color: rgb(236, 234, 234);
+    margin-left: 220px;
+    margin-top: 25px;
+    padding: 10px;
+}
+
+
+.main {
+    height: 85vh;
+    margin-top: 30px;
+    background-color: rgb(242, 245, 247);
+    font-family: sans-serif;
+    margin-bottom: 50px;
+}
+
+.main-next{
+    display: flex;
+}
+
+.video2{
+    padding: 50px;
+}
+
+.video2 video{
+    width: 500px;
+    height: 250px;
+}
+
+
+.next {
+    padding: 70px;
+}
+
+.next h1 {
+    padding-bottom: 10px;
+}
+
+.next p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.jk {
+    display: flex;
+}
+
+.voice h1 {
+    padding-bottom: 10px;
+    padding-left: 70px;
+}
+
+.voice p {
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 70px;
+    justify-content: center;
+
+}
+
+.voice i {
+    padding-right: 10px;
+    font-size: 30px;
+    color: rgb(63, 63, 242);
+}
+
+.ann h1 {
+    padding-bottom: 10px;
+    padding-left: 40px;
+}
+
+.ann p {
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 40px;
+}
+
+.ann i {
+    padding-right: 20px;
+    font-size: 30px;
+    color: rgb(71, 71, 247);
+}
+
+.shade {
+    height: 40vh;
+    background-color:rgb(245, 141, 158);
+    color: white;
+    margin: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    border-radius: 20px;
+}
+
+.shade h1 {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.shade input{
+    width: 570px;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 14px;
+}
+
+.shade button {
+    margin-top: 30px;
+    background-color:rgb(245, 141, 158);
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 14px;
+    font-size: 20px;
+}
+
+.internal{
+    text-align: center;
+    padding: 30px;
+}
+
+.internal img{
+    width: 250px;
+}
+
+.main3 {
+    margin-top: 30px;
+    display: flex;
+    font-family: sans-serif;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.contact {
+    font-size: 20px;
+    vertical-align: 10px;
+    border-left: 3px solid rgb(209, 206, 206);
+    padding-left: 30px;
+    ;
+}
+
+.contact h3 {
+    font-size: 25px;
+    color: rgb(83, 212, 254);
+    margin-top: 40px;
+    padding-bottom: 30px;
+    margin-left: 100px;
+}
+
+.contact p {
+    padding-bottom: 20px;
+}
+
+.contact a {
+    text-decoration: none;
+    line-height: 30px;
+    color: rgb(57, 57, 248);
+}
+
+.support {
+    font-size: 20px;
+    font-family: sans-serif;
+    border-left: 3px solid rgb(207, 207, 207);
+    border-spacing: 10px;
+    padding-left: 50px;
+}
+
+.support h3 {
+    font-size: 25px;
+    margin-left: 50px;
+    color: rgb(45, 189, 237);
+    margin-top: 40px;
+    padding-bottom: 30px;
+}
+
+.support ul {
+    list-style: none;
+    line-height: 30px;
+}
+
+.support2 {
+    font-size: 20px;
+    font-family: sans-serif;
+    border-left: 3px solid rgb(207, 207, 207);
+    border-right: 3px solid rgb(207, 207, 207);
+    border-spacing: 10px;
+    padding-left: 50px;
+    padding-right: 110px;
+}
+
+.support2 h3 {
+    font-size: 25px;
+    margin-left: 40px;
+    color: rgb(45, 189, 237);
+    margin-top: 40px;
+    padding-bottom: 30px;
+}
+
+.support2 ul {
+    list-style: none;
+    line-height: 30px;
+}
+
+.fa-angle-right {
+    padding-right: 30px;
+    color: rgb(45, 189, 237);
+}
+
+.home {
+    background-color: whitesmoke;
+    justify-content:center;
+    padding: 14px;
+    font-family: sans-serif;
+}
+
+.home ul{
+    margin-left: 600px;
+    padding: 10px;
+}
+
+.home ul li {
+    list-style: none;
+    display: inline;
+    color:rgb(3, 185, 246);
+    justify-content: center;
+    margin-left: 24px;
+    font-size: 20px;
+    padding: 16px;
+}
+
+.home ul li{
+    border-right: 3px solid rgb(207, 206, 206);
+}
+
+.copy{
+    text-align: center;
+    font-family:sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.copy p{
+    font-size: 20px;
+    color: rgb(183, 82, 82);
+}
+
+.copy h4{
+    margin-top: 10px;
+    color: rgb(53, 193, 239);
+}
